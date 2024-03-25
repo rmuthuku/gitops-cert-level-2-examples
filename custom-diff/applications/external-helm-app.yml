@@ -22,3 +22,8 @@ spec:
     syncOptions:
       - CreateNamespace=true  
    
+  ignoreDifferences:
+  - group: apps
+    kind: Deployment
+  - group: apps
+    kind: secret
